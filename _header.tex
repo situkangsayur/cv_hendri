@@ -3,12 +3,13 @@
 %====================
 
 \RequirePackage{fancyhdr}
+\RequirePackage{graphicx}
 
 \fancypagestyle{first_page}{
 	\fancyhf{}
 	\lhead{
-		\phone \\ % PHONE    
-		\city \\ % CITI
+		\phone \\ % PHONE
+		\city \\ % CITY
 		\href{mailto:\email}{\email} % EMAIL
 	}
 	\chead{
@@ -25,7 +26,7 @@
 	\renewcommand{\headrulewidth}{1pt} % 2pt header rule
 	\renewcommand{\headrule}{\hbox to\headwidth{\color{highlight}\leaders\hrule height \headrulewidth\hfill}}
 	\setlength{\headheight}{90pt}
-	\setlength{\headsep}{5pt}
+	\setlength{\headsep}{10pt}
 }
 
 \fancypagestyle{others}{
